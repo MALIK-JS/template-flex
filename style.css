@@ -1,0 +1,54 @@
+/* primary-color-light : #48cae4
+primary-color : #0096c7
+primary-color-dark : #023e8a */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+.header {
+  background-image: linear-gradient(to bottom right, #48cae485, #023d8a85),
+    url(https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+  height: 100vh;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 6vh;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+}
+
+.nav-menu li {
+  list-style: none;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #023e8a;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.logo {
+  color: #023e8a;
+}
